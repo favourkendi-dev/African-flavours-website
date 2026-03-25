@@ -1,0 +1,123 @@
+
+.navbar {
+    background-color: #1A1A1A;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navbar a {
+    color: #F28C28;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*hover effects*/
+
+.navbar a:hover {
+    color: #F5F5F0;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+.large-img {
+    flex: 3;
+    height: 90vh;
+    
+}
+
+
+
+body {
+    background-color: beige;
+}
+
+
+.flex-container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* This creates the space between images */
+    padding: 20px;
+    width: 100%;
+}
+
+.item {
+    width: 600px; /* This forces them to be small */
+    flex: none;   /* This prevents flexbox from resizing them */
+    text-align: center;
+}
+
+.item img {
+    width: 100%;  /* The image will now be exactly 150px wide */
+    height: auto;
+    display: block;
+}
+.item:hover {
+    transform: scale(1.05);
+}
+
+
+h3 {
+    color: gold;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item h3 {
+    margin: 0.5em 0;
+}
+
+.item p {
+    margin: 0.5em 0 1em;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
