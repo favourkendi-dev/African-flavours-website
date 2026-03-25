@@ -1,3 +1,41 @@
 body {
     background-color: #1A1A1A;
 }
+
+.navbar {
+    background-color: #1A1A1A;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navbar a {
+    color: #F28C28;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*hover effects*/
+
+.navbar a:hover {
+    color: #F5F5F0;
+}

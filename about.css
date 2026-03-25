@@ -2,8 +2,47 @@ body {
     background-color: bisque;
 }
 
-.about-hero {
+.navbar {
+    background-color: #1A1A1A;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navbar a {
     color: #F28C28;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*hover effects*/
+
+.navbar a:hover {
+    color: #F5F5F0;
+}
+
+
+.about-hero {
+    color: darkorange;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -11,12 +50,43 @@ body {
 }
 
 p {
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     
 }
 
 h3 {
     color: maroon;
-    font-size: x-large;
+    font-size: 50px;
+}
+
+button {
+    background-color: #1A1A1A;
+    color: #F28C28;
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+    border: 2px solid #F28C28;
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+button:hover {
+    color :#F5F5F0;
+    transform: transition 0.3s;
+}
+
+.image-container {
+  display: flex;
+  gap: 15px; 
+  width: 100%;
+}
+
+.large-img {
+  flex: 3; /* Takes up 75% of the width */
+  height: 400px; /* Fixed height keeps them level */
+  object-fit: cover;
 }

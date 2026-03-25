@@ -8,8 +8,19 @@
 </head>
 <body>
 
-    <main>
-        <img src="aboutimage.png" alt="chefs">
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            
+        </ul>
+    </nav>
+
+    <main class="image-container">
+        <img  class="large" src="aboutimage.png" alt="chefs">
+        <img  class="small" src="mealsoffer.png" alt="news">
     </main>
 
     <section class="about-hero">
@@ -43,10 +54,29 @@
             
              
     
-    <aside >
+    <aside class="menu">
         <h3>Hungry for a taste of the continent?</h3>
-        <a href="menu.html" class="btn">View Our Menu</a>
+        <br>
+        <button onclick="processOrder()">Order Now</button>
     </aside>
+
+    <!--javascript code-->
+
+    <script>
+        function processOrder() {
+    // 1. Ask the user for their name
+    let userName = prompt("Please enter your name to complete the order:");
+
+    // 2. Check if they actually typed something or hit 'Cancel'
+    if (userName === null || userName === "") {
+        alert("Order cancelled. We need a name to proceed!");
+    } else {
+        // 3. Show a personalized success message
+        alert("Thank you, " + userName + "! Your order has been placed successfully.");
+    }
+}
+
+    </script>
     
 </body>
 </html>

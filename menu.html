@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+   <button onclick="processOrder()">Order Now</button> 
+
+
+<!--Javascript code-->
+
+    <script>
+        function processOrder() {
+    // 1. Ask the user for their name
+    let userName = prompt("Please enter your name to complete the order:");
+
+    //Ask the user for their ticket Order Number
+    let ticketNumber = prompt("Enter Your Ticket Order Number :");
+
+    // 2. Check if they actually typed something or hit 'Cancel'
+    if (userName === " " || userName === null) {
+        alert("Order cancelled. We need a name to proceed!");
+    } else {
+        // 3. Show a personalized success message
+        alert("Thank you, " +" " + userName +" !" +" " +"Your ticket order number is" +" "+ ticketNumber +" " + "Your order has been placed successfully.Thankyou");
+    }
+}
+
+   </script>
+   
+   
+</body>
+</html>
