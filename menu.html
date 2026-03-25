@@ -17,6 +17,11 @@
     // 1. Ask the user for their name
     let userName = prompt("Please enter your name to complete the order:");
 
+    //Ask user for what they Ordered
+
+    let order = prompt("Please Enter The Meal you Ordered");
+
+
     //Ask the user for their ticket Order Number
     let ticketNumber = prompt("Enter Your Ticket Order Number :");
 
@@ -25,7 +30,7 @@
         alert("Order cancelled. We need a name to proceed!");
     } else {
         // 3. Show a personalized success message
-        alert("Thank you, " +" " + userName +" !" +" " +"Your ticket order number is" +" "+ ticketNumber +" " + "Your order has been placed successfully.Thankyou");
+        alert("Thank you, " + " " + userName + " !" + "Your ordered meal is" + " " + order + " " + "Your ticket order number is" + " "+ ticketNumber + " " + "Your order has been placed successfully.Thankyou");
     }
 }
 
