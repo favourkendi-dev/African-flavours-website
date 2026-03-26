@@ -28,16 +28,23 @@ body {
 }
 
 .navbar a {
-    color: #F28C28;
+    color: #F5F5F0;
     text-decoration: none;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navbar a {
+  font-family: "Farsan", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
 /*hover effects*/
 
 .navbar a:hover {
-    color: #F5F5F0;
+    color: #F28C28;
 }
 
 
@@ -87,6 +94,6 @@ button:hover {
 
 .large-img {
   flex: 3; /* Takes up 75% of the width */
-  height: 400px; /* Fixed height keeps them level */
+  height: 200px; /* Fixed height keeps them level */
   object-fit: cover;
 }
