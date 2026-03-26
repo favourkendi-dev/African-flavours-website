@@ -1,6 +1,6 @@
 ### Project name
 
-  . African-flavours-website
+  . African-flavours-website &nbsp;
 
 ### Project Description
 
@@ -8,38 +8,38 @@
 Usage
 ### Installation
 
- .git clone https://github.com/favourkendi-dev/African-flavours-website.git 
+ .git clone https://github.com/favourkendi-dev/African-flavours-website.git &nbsp;
  or
- .git clone git@github.com:favourkendi-dev/African-flavours-website.git
+ .git clone git@github.com:favourkendi-dev/African-flavours-website.git   &nbsp;
 
  ### Language Used 
 
-  .HTML
-  .CSS
-  .JAVASCRIPT
+  .HTML &nbsp;
+  .CSS  &nbsp;
+  .JAVASCRIPT &nbsp;
 
 ### Pages
 
-.Home
-.About
-.Gallery
-.Menu
+.Home &nbsp;
+.About &nbsp;
+.Gallery &nbsp;
+.Menu    &nbsp
 
 ### Tools
 
-.Vscode
-.Google chrome
+.Vscode  &nbsp;
+.Google chrome  &nbsp;
 
 ### Contribution
 
- .Fork the project to your own repo.
- .Clone the project.
- .Run the project using live server vscode-extension
+ .Fork the project to your own repo. &nbsp;
+ .Clone the project.   &nbsp;
+ .Run the project using live server vscode-extension  &nbsp;
 
 ### Author
 
-https://github.com/favourkendi-dev
+https://github.com/favourkendi-dev  &nbsp;
 
 ### Licence
 
- -MIT LICENSE
+ -MIT LICENSE  &nbsp;
