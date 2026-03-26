@@ -8,6 +8,20 @@ Usage
  or
  -git clone git@github.com:favourkendi-dev/African-flavours-website.git
 
+ ### Language Used 
+  -HTML
+  -CSS
+  -JAVASCRIPT
+### Pages
+-Home
+-About
+-Gallery
+-Menu
+
+### Tools
+-Vscode
+-Google chrome
+
 ### Contribution
  -Fork the project to your own repo.
  -Clone the project.
